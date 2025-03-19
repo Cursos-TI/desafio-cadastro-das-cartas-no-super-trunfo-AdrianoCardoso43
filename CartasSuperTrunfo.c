@@ -1,10 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int populacao;
-    float area;
-    float pib;
-    int pontosturisticos;
+    int populacao, pontoturistico;
+    float area, pib;
 
     printf("digite a populacao: \n");
     scanf("%d", &populacao);
@@ -16,9 +14,10 @@ int main(){
     scanf("%f", &pib);
 
     printf("digite o numero de pontos turisticos: \n");
-    scanf("%d", &pontosturisticos);
+    scanf("%d", &pontoturistico);
 
-    printf("Populacao: %d - Area : %f - PIB: %f - Pontosturisticos: $d");
+    printf("Total da populacao: %d - Total de pontos turisticos: %d\n55", populacao, pontoturistico);
+    printf("Total da area: %f - Total do Pib %f", area,pib);
 
 
     return 0;
